@@ -8,5 +8,19 @@ module.exports = {
     filename: 'main.js',
   },
   module: {
+    rules: [
+      {
+        test: /\.js$/,
+        use: [
+          {
+            loader: 'babel-loader',
+            options: {
+              presets: ['es2015']
+            }
+          }
+        ],
+        exclude: path.resolve(projectDir, './node_modules')
+      }
+    ]
   }
 }

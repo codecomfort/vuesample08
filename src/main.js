@@ -1,1 +1,3 @@
-alert('test!');
+const message = 'test!'
+
+alert(message);
