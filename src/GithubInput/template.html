@@ -1,4 +1,5 @@
 <form v-on:submit.prevent="onSubmit">
-    <input type="text" placeholder="Github ID を入力してください" />
+    <input type="text" placeholder="Github ID を入力してください"
+           v-model="username" />
     <button type="submit">クリック</button>
 </form>

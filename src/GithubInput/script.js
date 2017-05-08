@@ -7,7 +7,7 @@ export default {
   },
   methods: {
     onSubmit(event) {
-      alert('submitted!');
+      alert(this.username);
     }
   }
 }
