@@ -4,5 +4,10 @@ export default {
     return {
       username: '',
     }
+  },
+  methods: {
+    onSubmit(event) {
+      alert('submitted!');
+    }
   }
 }
