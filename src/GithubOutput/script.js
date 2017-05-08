@@ -16,7 +16,6 @@ export default {
   },
   methods: {
     onUsernameChange(name) {
-      console.log(name);
       this.currentUsername = name;
     }
   }

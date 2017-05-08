@@ -1,1 +1,8 @@
-<div></div>
+<div>
+    <p v-if="currentUsername == null">
+        Github ユーザー名を入力してください。
+    </p>
+    <p v-else>
+        ユーザー名：{{ currentUsername }}
+    </p>
+</div>
