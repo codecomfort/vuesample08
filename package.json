@@ -2,6 +2,9 @@
   "name": "vuesample08",
   "version": "1.0.0",
   "main": "index.js",
+  "scripts": {
+    "start": "live-server"
+  },
   "author": "codecomfort <hiroyuki.naitou+codecomfort@gmail.com>",
   "license": "MIT",
   "devDependencies": {
