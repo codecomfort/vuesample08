@@ -1,3 +1,11 @@
-const message = 'test!'
+import Vue from 'vue';
 
-alert(message);
+import AppComponent from './App/index.vue';
+
+const vm = new Vue({
+    el: '#app',
+    components: {
+      app: AppComponent
+    },
+    render: h => h('app')
+});
